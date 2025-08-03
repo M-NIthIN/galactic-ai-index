@@ -44,6 +44,3 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 | Documentation    | Markdown, Jupyter (optional)       |
 
 ---
-
-## 📦 Folder Structure
-
