@@ -52,9 +52,9 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 ### 📈 Index Performance Summary
 | Metric             | Value       |
 |--------------------|-------------|
-| Cumulative Return  | **+14.2%**  |
-| Volatility (Annual)| **18.3%**   |
-| Max Drawdown       | **-6.5%**   |
+| Cumulative Return  | **+27.89%**  |
+| Volatility (Annual)| **39.58%**   |
+| Max Drawdown       | **27.18%**   |
 
 > ℹ️ *These values are generated dynamically from the latest `index_history.csv` using Python + pandas.*
 
