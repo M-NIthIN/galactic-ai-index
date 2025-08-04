@@ -1,0 +1,11 @@
+ticker,name,sector,weight
+NVDA,NVIDIA,AI,0.10
+MSFT,Microsoft,AI,0.10
+META,Meta Platforms,AI,0.10
+GOOG,Alphabet,AI,0.10
+SNOW,Snowflake,AI,0.10
+SPCE,Virgin Galactic,Space,0.10
+LHX,L3Harris,Space,0.10
+IRDM,Iridium,Space,0.10
+RKLB,Rocket Lab,Space,0.10
+ASTS,AST SpaceMobile,Space,0.10
