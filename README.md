@@ -44,3 +44,29 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 | Documentation    | Markdown, Jupyter (optional)       |
 
 ---
+
+## 📊 Results
+
+> Below are selected outputs from the Galactic AI Index calculation as of the most recent run.
+
+### 📈 Index Performance Summary
+| Metric             | Value       |
+|--------------------|-------------|
+| Cumulative Return  | **+14.2%**  |
+| Volatility (Annual)| **18.3%**   |
+| Max Drawdown       | **-6.5%**   |
+
+> ℹ️ *These values are generated dynamically from the latest `index_history.csv` using Python + pandas.*
+
+### 📉 Index Trend (Chart Preview)
+
+<p align="center">
+  <img src="reports/index_plot.png" alt="Galactic AI Index Chart" width="600"/>
+</p>
+
+> This chart shows the performance of the index starting from a base level of 1000 over the past 6 months. Index values are updated daily using historical price data from Yahoo Finance.
+
+### 📁 Output Artifacts
+- `index_history.csv` → Historical index levels and daily returns  
+- `index_report.xlsx` → Summary stats, formatted tables  
+- `index_plot.png` → Line chart visualization of index  
