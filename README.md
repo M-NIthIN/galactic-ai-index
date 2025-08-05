@@ -31,23 +31,11 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 
 ---
 
-## ⚙️ Technologies Used
-
-| Component        | Tools Used                         |
-|------------------|------------------------------------|
-| Data Handling    | Python, pandas, NumPy              |
-| Index Logic      | pandas, vectorized math            |
-| Data Ingestion   | yfinance, API wrappers, SFTP mock  |
-| Automation       | GitHub Actions, cron, or AWS Lambda|
-| Reporting        | Excel (OpenPyXL), CSV, matplotlib  |
-| Version Control  | Git, GitHub                        |
-| Documentation    | Markdown, Jupyter (optional)       |
-
----
-
 ## 📊 Results
 
 > Below are selected outputs from the Galactic AI Index calculation as of the most recent run.
+
+### Phase 1
 
 ### 📈 Index Performance Summary
 | Metric             | Value       |
@@ -66,7 +54,27 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 
 > This chart shows the performance of the index starting from a base level of 1000 over the past 6 months. Index values are updated daily using historical price data from Yahoo Finance.
 
+## 📈 Index Trend (Chart Preview)
+
+![Galactic AI Index Chart](reports/galactic_index_trend.png)
+
+This chart shows the performance of the Galactic AI Index starting from a base level of 1000. It tracks the collective movement of AI and space-tech stocks over time.
+
 ### 📁 Output Artifacts
 - `index_history.csv` → Historical index levels and daily returns  
 - `index_report.xlsx` → Summary stats, formatted tables  
 - `index_plot.png` → Line chart visualization of index  
+
+---
+
+## ⚙️ Technologies Used
+
+| Component        | Tools Used                         |
+|------------------|------------------------------------|
+| Data Handling    | Python, pandas, NumPy              |
+| Index Logic      | pandas, vectorized math            |
+| Data Ingestion   | yfinance, API wrappers, SFTP mock  |
+| Automation       | GitHub Actions, cron, or AWS Lambda|
+| Reporting        | Excel (OpenPyXL), CSV, matplotlib  |
+| Version Control  | Git, GitHub                        |
+| Documentation    | Markdown, Jupyter (optional)       |
