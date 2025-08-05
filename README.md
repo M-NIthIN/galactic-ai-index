@@ -8,18 +8,6 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 
 ---
 
-## 🧱 Features
-
-- 📊 **Custom stock universe** of AI and space-tech companies  
-- 🧮 **Index calculation engine** using daily price data  
-- 🔁 **Rebalancing logic** (monthly or quarterly)  
-- 🛠️ **Automated pipeline** with SFTP simulation or GitHub Actions  
-- 📈 **Excel & CSV reporting** for stakeholder-ready outputs  
-- 🔍 **Data quality checks** and corporate action handling  
-- 📦 **GitHub-ready documentation** and reproducible workflows
-
----
-
 ## 🎯 Project Goals
 
 - Build and maintain a **custom index** (equal or weighted)
@@ -46,24 +34,32 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 
 > ℹ️ *These values are generated dynamically from the latest `index_history.csv` using Python + pandas.*
 
-### 📉 Index Trend (Chart Preview)
 
-<p align="center">
-  <img src="reports/index_plot.png" alt="Galactic AI Index Chart" width="600"/>
-</p>
-
-> This chart shows the performance of the index starting from a base level of 1000 over the past 6 months. Index values are updated daily using historical price data from Yahoo Finance.
 
 ## 📈 Index Trend (Chart Preview)
 
 ![Galactic AI Index Chart](reports/galactic_index_trend.png)
 
-This chart shows the performance of the Galactic AI Index starting from a base level of 1000. It tracks the collective movement of AI and space-tech stocks over time.
+> This chart shows the performance of the index starting from a base level of 1000 over the past 6 months. Index values are updated daily using historical price data from Yahoo Finance.
+
 
 ### 📁 Output Artifacts
 - `index_history.csv` → Historical index levels and daily returns  
 - `index_report.xlsx` → Summary stats, formatted tables  
 - `index_plot.png` → Line chart visualization of index  
+
+---
+
+
+## 🧱 Features
+
+- 📊 **Custom stock universe** of AI and space-tech companies  
+- 🧮 **Index calculation engine** using daily price data  
+- 🔁 **Rebalancing logic** (monthly)  
+- 🛠️ **Automated pipeline** with SFTP simulation or GitHub Actions  
+- 📈 **Excel & CSV reporting** for stakeholder-ready outputs  
+- 🔍 **Data quality checks** and corporate action handling  
+- 📦 **GitHub-ready documentation** and reproducible workflows
 
 ---
 
