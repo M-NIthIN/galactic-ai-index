@@ -23,7 +23,6 @@ This project simulates tasks similar to an **Index Production Analyst at Syntax*
 
 > Below are selected outputs from the Galactic AI Index calculation as of the most recent run.
 
-### Phase 1
 
 ### 📈 Index Performance Summary
 | Metric             | Value       |
