@@ -4,7 +4,7 @@
 ## 🧠 Overview  
 The **Galactic AI Index** is a simulated, custom-built stock index tracking a basket of companies in the AI and space technology sectors. Designed to mirror real-world index production workflows, this project demonstrates **index construction**, **financial data handling**, and **automated data pipelines**, while integrating **Python, pandas, Excel**, and **SFTP/cloud simulation**.
 
-This project simulates tasks similar to an **Index Production Analyst at Syntax**, such as index calculation, corporate action handling, periodic rebalancing, stakeholder reporting, and data dissemination.
+
 
 ---
 
